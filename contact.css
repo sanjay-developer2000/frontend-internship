@@ -1,0 +1,82 @@
+.display-3{
+    text-align: center;
+background-color: skyblue;
+}
+.text{
+    
+    font-style: normal;
+}
+.card1{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    padding: 5px;
+    padding-top: 2.5%;
+    text-align: center;
+     margin-left: 80%;
+    margin-right: 75%;
+    margin-top: -25%;
+    background-image: linear-gradient(to right,red,green,pink,black);
+    border-radius: 33% 0 33% 0;
+    
+}
+
+.card2{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    padding: 5px;
+    padding-top: 2.5%;
+    text-align: center;
+     margin-left: 80%;
+    margin-right: 75%;
+    margin-top: -7%;
+    background-image: linear-gradient(to right, red,green,pink,black);
+    border-radius: 33% 0 33% 0;
+
+}
+.card3{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    padding: 5px;
+    padding-top: 2.5%;
+    text-align: center;
+     margin-left: 80%;
+    margin-right: 75%;
+    margin-top: 1%;
+    background-image: linear-gradient(to right,red,green,pink,black);
+    border-radius: 33% 0 33% 0;
+
+}
+.card3:hover{
+    box-sizing: border-box;
+    width: 230px;
+    height: 230px;
+    padding: 5px;
+    padding-top: 2.5%;
+    text-align: center;
+     margin-left: 80%;
+    margin-right: 75%;
+    margin-top: 1%;
+    background-color: green;
+    border-radius: 33% 0 33% 0;
+
+}
+.contact{
+    margin-left: 29%;
+    margin-top: -8%;
+}
+.btn-primary{
+    background-color: skyblue;
+    margin-left: 40%;
+    margin-top: 2%
+}
+body{
+   /* background-image:url(https://images.pexels.com/photos/4088111/pexels-photo-4088111.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load);*/
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 100%;
+    background-image: linear-gradient(to top,white,skyblue,violet);
+
+}

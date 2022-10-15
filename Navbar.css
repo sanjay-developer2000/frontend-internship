@@ -1,0 +1,64 @@
+.navbar{
+    height: 65px;
+    background-color: rgb(216, 65, 65);
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.8rem;
+    padding-left: 0px;
+    justify-content: center;
+
+}
+.nav-logo{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    
+}
+.nav-list{
+    display: flex;
+    list-style: none;
+    gap: 19%;
+    
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: underline;
+    color:yellow;
+}
+.nav-icons{
+    cursor: pointer;
+    display: none;
+    font-size: 2rem;
+    margin-left: 65%;
+
+}
+@media screen and (max-width:600px){
+    .nav-icons{
+        display: flex;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: absolute;
+        width: 100%;
+        top: 25px;
+        left: -166%;
+        background-color: rgb(216, 65, 65);
+        padding-right: 55%;
+        
+    }
+    .nav-list.active{
+left: -7%;
+        
+    }
+    .nav-item{
+        border-top: 1px solid white;
+        padding: 10px;
+    }
+}
+/* FaStudiovinari*/
